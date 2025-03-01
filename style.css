@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #0A3D62; /* Invoice Management Blue */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0A3D62;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2264aa;
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+    background: #F5F7FA;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+label {
+    flex: 1 1 100%;
+    font-weight: bold;
+    color: #0D1B2A;
+    text-align: left;
+}
+
+input, select {
+    flex: 1 1 45%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Buttons */
+.form-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 48%;
+}
+
+input[type="submit"] {
+    background-color: #0A3D62;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #092C47;
+}
+
+input[type="reset"] {
+    background-color: #DC3545;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background-color: #C82333;
+}
+
+/* Table Styling */
+.table-container {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table Header */
+th {
+    background-color: #0A3D62;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: inset 0px -2px 0px rgba(255, 255, 255, 0.2);
+}
+
+/* Table Data */
+td {
+    background: #F5F7FA;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #0D1B2A;
+}
+
+/* Buttons inside table */
+button {
+    padding: 6px 12px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Edit Button in Navy Blue */
+.edit {
+    background-color: #0A3D62;
+    color: white;
+}
+
+.edit:hover {
+    background-color: #092C47;
+}
+
+.delete {
+    background-color: #C82333;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #C82333;
+}
